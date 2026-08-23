@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e8f1ec;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scoreboard {
+    width: 600px;
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+
+    background-color: #1d2a5a;
+
+    border: 4px solid white;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team {
+    text-align: center;
+}
+
+.team h1 {
+    margin: 0 0 15px;
+
+    color: white;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.score-box {
+    width: 120px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+
+    background-color: #000000;
+
+    border-radius: 4px;
+}
+
+.score-box span {
+    color: #ff416c;
+
+    font-family: "Courier New", monospace;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 18px;
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.buttons button {
+    width: 4px;
+    height: 3px;
+
+    color: #cbd5f5;
+    background-color: transparent;
+
+    border: 1px solid #8b98bd;
+    border-radius: 4px;
+
+    font-family: "Courier New", monospace;
+    font-size: 4px;
+
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #33447d;
+}
+
+.buttons button:active {
+    transform: scale(0.95);
+}
